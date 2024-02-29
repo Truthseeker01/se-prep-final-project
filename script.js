@@ -1,3 +1,20 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+const circle = document.getElementById("circle");
+const upButton = document.getElementById("upButton");
+const downButton = document.getElementById("downButton");
+let rotateValue = circle.style.transform;
+let rotateSum;
+function Action(){
+    upButton.addEventListener("click", function(){
+        rotateSum = rotateValue + "rotate(-90deg)";
+        circle.style.transform = rotateSum;
+        rotateValue = rotateSum;
+    });
+    downButton.addEventListener("click", function(){
+        rotateSum = rotateValue + "rotate(90deg)";
+        circle.style.transform = rotateSum;
+        rotateValue = rotateSum;
+    });
+
+};
+Action();
+
