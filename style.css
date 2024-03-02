@@ -139,3 +139,41 @@ nav{
   top:120px;
   left:2%;
 }
+
+
+@media only screen and (max-width:500px){
+  .logo h1{
+    top:120px;
+    left: 4%;
+  }
+  #circle{
+    width: 1135px;
+    height: 1150px;
+  }
+  .controls{
+    left: 4%;
+    top: 50%;
+  }
+  .controls h3{
+    color:black;
+  }
+}
+@media only screen and (max-width:800px){
+  .info{
+    top: 45%;
+    left:0;
+  }
+  .overlay{
+    width: 0;
+    height: 75px;
+  }
+  #circle{
+    width: 1135px;
+    height: 1300px;
+  }
+  .nav-links{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+}
