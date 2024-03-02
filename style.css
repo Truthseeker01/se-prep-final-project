@@ -141,7 +141,7 @@ nav{
 }
 
 
-@media only screen and (max-width:500px){
+@media all and (max-width:500px){
   .logo h1{
     top:120px;
     left: 4%;
@@ -158,7 +158,7 @@ nav{
     color:black;
   }
 }
-@media only screen and (max-width:800px){
+@media all and (max-width:800px){
   .info{
     top: 45%;
     left:0;
