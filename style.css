@@ -141,7 +141,7 @@ nav{
 }
 
 
-/*@media all and (max-width:500px){
+@media all and (max-width:500px){
   .logo h1{
     top:120px;
     left: 4%;
@@ -176,4 +176,4 @@ nav{
     margin-left: 350px;
     margin-top: 50px;
   }
-}*/
+};
