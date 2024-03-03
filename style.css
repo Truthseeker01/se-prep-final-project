@@ -232,8 +232,9 @@
       text-align: center;
     }
     .logo h1{
-      top:60px;
-      left:-40%;
+      top:90%;
+      left:-43%;
+      position: absolute;
     }
     .feature h1{
       font-size: 16px;
@@ -243,8 +244,8 @@
     }
     .logo img {
       width: 75px;
-      right: 145px;
-      top: 0px;
+      left: -40%;
+      top: 0%;
       position: absolute;
   }
   .nav-links {
